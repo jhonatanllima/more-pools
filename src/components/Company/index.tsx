@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const Company: React.FC = () => {
-  return <div />;
-};
+  return <div />
+}
 
-export default Company;
+export default Company

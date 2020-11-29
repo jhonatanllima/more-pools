@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const JVBSoftware: React.FC = () => {
-  return <div />;
-};
+  return <div />
+}
 
-export default JVBSoftware;
+export default JVBSoftware

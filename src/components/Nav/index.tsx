@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import logoImg from "../../assets/images/logo.png";
+import logoImg from '../../assets/images/logo.png'
 
-import { Content } from "./styles";
-import "animate.css";
+import { Content } from './styles'
+import 'animate.css'
 
 const Nav: React.FC = () => {
   return (
@@ -34,7 +34,7 @@ const Nav: React.FC = () => {
         </li>
       </ul>
     </Content>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav

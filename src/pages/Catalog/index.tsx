@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const Catalog: React.FC = () => {
-  return <div />;
-};
+  return <div />
+}
 
-export default Catalog;
+export default Catalog

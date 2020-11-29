@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Content = styled.nav`
   width: 100%;
@@ -41,4 +41,4 @@ export const Content = styled.nav`
   .nav-list .nav-list-link a:hover {
     color: #333;
   }
-`;
+`
