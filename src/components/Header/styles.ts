@@ -41,4 +41,13 @@ export const ContentSlider = styled.div`
   justify-content: center;
 
   background-color: ${colors.white};
+
+  @media (max-width: 1024px) {
+    top: 25vh;
+
+    width: 100%;
+    border-radius: 0;
+
+    box-shadow: none;
+  }
 `
