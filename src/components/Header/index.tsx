@@ -2,7 +2,7 @@ import React from 'react'
 
 import BgHeader from '../../assets/images/backgroundHeader.jpg'
 
-import { Container, Background, ContentSlider } from './styles'
+import { Container, Background, ContentSlider, Card } from './styles'
 
 const Header: React.FC = () => {
   return (
@@ -12,7 +12,11 @@ const Header: React.FC = () => {
       </Background>
 
       <ContentSlider>
-        <h1>Slider</h1>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </ContentSlider>
     </Container>
   )

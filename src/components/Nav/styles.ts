@@ -18,7 +18,7 @@ export const ContentWrapper = styled.nav`
   align-items: center;
   justify-content: space-between;
 
-  background: ${colors.darkWhite};
+  background: ${colors.white};
 
   .burguer {
     display: none;

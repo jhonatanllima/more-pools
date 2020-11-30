@@ -28,13 +28,11 @@ export const Background = styled.div`
 `
 
 export const ContentSlider = styled.div`
-  top: 57vh;
+  top: 60vh;
   position: absolute;
 
-  width: 97%;
+  width: 100%;
   height: 40%;
-  border-radius: 4px;
-  box-shadow: 1px 1px 3px 1px ${colors.grey};
 
   display: flex;
   align-items: center;
@@ -44,9 +42,18 @@ export const ContentSlider = styled.div`
 
   @media (max-width: 1024px) {
     width: 100%;
-    height: 42%;
-    border-radius: 0;
+    height: 44%;
+  }
+`
 
-    box-shadow: none;
+export const Card = styled.div`
+  width: 15%;
+  height: 90%;
+  margin-left: 15px;
+  border-radius: 4px;
+  border: 1px solid ${colors.fadedGrey};
+
+  @media (max-width: 1024px) {
+    width: 30%;
   }
 `
