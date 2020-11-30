@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import colors from '../../themes/colors'
 
 export const Container = styled.div`
-  z-index: 1030;
+  z-index: 5;
   position: fixed;
 
   width: 100vw;

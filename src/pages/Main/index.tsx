@@ -10,7 +10,6 @@ const Main: React.FC = () => {
     <Container>
       <Nav />
       <Header />
-      <Header />
     </Container>
   )
 }
