@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import logoImg from '../../assets/images/logo.png'
 
-import { Container, ContentWrapper, List, Logo } from './styles'
+import { Container, ContentWrapper, List, ListWrapper, Logo } from './styles'
 import 'animate.css'
 
 const Nav: React.FC = () => {
@@ -26,13 +26,19 @@ const Nav: React.FC = () => {
             transform: openMenu ? 'translateX(0px)' : ''
           }}
         >
-          <ul>
-            <li>Empresa</li>
-            <li>Cátalogo</li>
-            <li>Promoções</li>
-            <li>Galeria</li>
-            <li>Contato</li>
-          </ul>
+          <ListWrapper>
+            <ul className="list-services">
+              <li>Empresa</li>
+              <li>Cátalogo</li>
+              <li>Promoções</li>
+              <li>Galeria</li>
+              <li>Contato</li>
+            </ul>
+
+            <ul className="list-social">
+              <li>Social Icon</li>
+            </ul>
+          </ListWrapper>
         </List>
         <FaBars onClick={() => setOpenMenu(!openMenu)} className="burguer" />
       </ContentWrapper>

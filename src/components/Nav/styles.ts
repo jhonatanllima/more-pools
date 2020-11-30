@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import colors from '../../themes/colors'
 
 export const Container = styled.div`
+  z-index: 1030;
+  position: fixed;
+
   width: 100vw;
   height: 8vh;
 `
@@ -18,6 +21,10 @@ export const ContentWrapper = styled.nav`
   background: ${colors.darkWhite};
 
   .burguer {
+    display: none;
+  }
+
+  .list-social {
     display: none;
   }
 
@@ -40,8 +47,9 @@ export const ContentWrapper = styled.nav`
       height: 100vh;
       display: flex;
       padding: 24px 24px 24px 0;
+      max-width: 200px;
       transform: translateX(-50vw);
-      transition: 0.5s ease-in-out;
+      transition: 0.8s ease-in-out;
       align-items: flex-start;
       justify-content: start;
 
@@ -67,34 +75,61 @@ export const Logo = styled.div`
 export const List = styled.div`
   width: auto;
 
-  ul {
+  .list-services,
+  .list-social {
     display: flex;
 
     list-style-type: none;
   }
 
-  ul li {
+  .list-services li,
+  .list-social li {
     margin-left: 25px;
   }
 
-  ul li a {
+  .list-services li a {
     cursor: pointer;
   }
 
   @media (max-width: 768px) {
-    ul {
+    .list-services,
+    .list-social {
       width: 100%;
       margin: 0;
       display: block;
     }
 
-    ul li {
+    .list-services li,
+    .list-social li {
       padding: 10px 0;
+    }
+
+    .list-services li {
       border-bottom: 1px solid #fff;
     }
 
-    ul li:last-of-type {
+    .list-services li:last-of-type {
       border-bottom: 0px solid #fff;
+    }
+  }
+`
+
+export const ListWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+
+  .list-social {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .list-social {
+      display: block;
     }
   }
 `

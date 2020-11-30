@@ -9,7 +9,8 @@ const Main: React.FC = () => {
   return (
     <Container>
       <Nav />
-      {/* <Header /> */}
+      <Header />
+      <Header />
     </Container>
   )
 }
