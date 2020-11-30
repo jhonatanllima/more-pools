@@ -2,44 +2,47 @@ import styled from 'styled-components'
 
 import colors from '../../themes/colors'
 
-export const Content = styled.nav`
+export const Container = styled.div`
+  width: 100vw;
+  height: 8vh;
+`
+
+export const ContentWrapper = styled.nav`
   width: 100%;
-  height: 50px;
+  height: 100%;
   display: flex;
-  padding: 5px;
+  padding: 0 10vw;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
-  background: ${colors.darkWhite};
+  background-color: ${colors.darkWhite};
+`
 
-  .logo img {
+export const Logo = styled.div`
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
     width: 100%;
     height: auto;
-    max-width: 120px;
-    margin-bottom: -40px;
+    max-width: 100px;
   }
+`
 
-  .nav-list {
+export const List = styled.div`
+  width: auto;
+
+  ul {
     display: flex;
     justify-content: space-around;
 
     list-style-type: none;
   }
 
-  .nav-list .nav-list-link {
-    margin-left: 20px;
-  }
-
-  .nav-list .nav-list-link a {
-    color: ${colors.textGrey};
-    font-size: 16px;
-    transition: 0.5s;
-    cursor: pointer;
-    font-weight: 500;
-    text-decoration: none;
-  }
-
-  .nav-list .nav-list-link a:hover {
-    color: #333;
+  ul li {
+    margin-left: 15px;
   }
 `
