@@ -28,7 +28,15 @@ export const ContentLeft = styled.div`
     width: 100%;
     height: 100%;
 
+    transition: 0.5s;
     object-fit: cover;
+    filter: grayscale(25%);
+
+    :hover {
+      transition: 0.5s;
+      filter: grayscale(0%);
+      transform: scale(1.01);
+    }
   }
 `
 
