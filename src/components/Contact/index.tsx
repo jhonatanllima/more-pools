@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { FiInstagram } from 'react-icons/fi'
-import { FaFacebookF, FaWhatsapp } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
+import { FiInstagram, FiFacebook } from 'react-icons/fi'
 
 import {
   Social,
@@ -17,9 +17,38 @@ const Highlights: React.FC = () => {
       <ContentWrapper>
         <ContentLeft>
           <Social>
-            <FaWhatsapp className="whatsApp" />
-            <FiInstagram className="instagram" />
-            <FaFacebookF className="facebook" />
+            <div>
+              <a
+                href="https://api.whatsapp.com/send?phone=5515996752828&text=Ol%C3%A1%20mais%20piscinas!%20Vim%20atrav%C3%A9s%20do%20site!%20Gostaria%20de%20um%20or%C3%A7amento."
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsapp className="whatsApp" />
+                (15) 99675-2828
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://www.instagram.com/maispiscinasitape/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FiInstagram className="instagram" />
+                @maispiscinasitape
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://www.facebook.com/maispiscinas"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FiFacebook className="facebook" />
+                @maispiscinas
+              </a>
+            </div>
           </Social>
         </ContentLeft>
 

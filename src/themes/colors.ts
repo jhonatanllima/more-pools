@@ -1,6 +1,10 @@
 export default {
   primaryColor: '#2A69AE',
 
+  whatsApp: '#25D366',
+  facebook: '#4267B2',
+  instagram: '#E1306C',
+
   dark: '#283131',
   black: '#333333',
   darkText: '#566067',

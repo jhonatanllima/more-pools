@@ -22,12 +22,43 @@ export const Social = styled.div`
   align-items: center;
   justify-content: center;
 
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+
+  div {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+
+    a {
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 100%;
+      font-style: italic;
+      text-decoration: none;
+      color: ${colors.black};
+      text-transform: uppercase;
+
+      @media (max-width: 1024px) {
+        margin-top: 30px;
+
+        flex-direction: column;
+      }
+    }
+  }
+
   .whatsApp {
     width: 50px;
     height: 50px;
     margin: 10px;
 
-    color: ${colors.black};
+    color: ${colors.whatsApp};
   }
 
   .instagram {
@@ -35,7 +66,7 @@ export const Social = styled.div`
     height: 50px;
     margin: 10px;
 
-    color: ${colors.black};
+    color: ${colors.instagram};
   }
 
   .facebook {
@@ -43,7 +74,7 @@ export const Social = styled.div`
     height: 50px;
     margin: 10px;
 
-    color: ${colors.black};
+    color: ${colors.facebook};
   }
 `
 
