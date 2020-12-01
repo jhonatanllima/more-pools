@@ -46,6 +46,7 @@ export const ContentRight = styled.div`
 
   @media (max-width: 1024px) {
     width: 70%;
+    padding: 25px;
   }
 
   h1 {
@@ -53,6 +54,10 @@ export const ContentRight = styled.div`
 
     font-size: 60px;
     font-style: italic;
+
+    @media (max-width: 1024px) {
+      font-size: 55px;
+    }
   }
 
   p {
