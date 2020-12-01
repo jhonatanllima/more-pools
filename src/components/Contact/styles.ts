@@ -16,7 +16,7 @@ export const ContentWrapper = styled.div`
 
 export const Social = styled.div`
   width: 90%;
-  height: 90%;
+  height: 100%;
 
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@ export const Social = styled.div`
   div {
     width: 100%;
     height: auto;
-    margin: 10px;
+    margin: 0px 10px;
 
     a {
       width: 100%;
@@ -39,16 +39,18 @@ export const Social = styled.div`
       align-items: center;
       justify-content: center;
 
-      font-size: 100%;
+      font-size: 30px;
       font-style: italic;
       text-decoration: none;
       color: ${colors.black};
       text-transform: uppercase;
 
       @media (max-width: 1024px) {
-        margin-top: 30px;
+        margin-top: 10px;
 
         flex-direction: column;
+
+        font-size: 20px;
       }
     }
   }
