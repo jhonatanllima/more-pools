@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import colors from '../../themes/colors'
 
 export const Container = styled.section`
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
 
   display: flex;
@@ -18,7 +18,7 @@ export const Background = styled.div`
   width: 100%;
   height: 100%;
 
-  background: #e9e9e9;
+  background: ${colors.backGrey};
 
   img {
     width: 100%;

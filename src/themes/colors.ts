@@ -18,6 +18,7 @@ export default {
   eightGrey: '#666666',
   fadedGrey: '#b8b7b7',
   lightGrey: '#ececec',
+  backGrey: '#e9e9e9',
   textGrey: '#707070',
 
   red: '#ff4d4f',
