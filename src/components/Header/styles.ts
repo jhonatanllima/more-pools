@@ -89,15 +89,3 @@ export const ContentSlider = styled.div`
     height: 44%;
   }
 `
-
-export const Card = styled.div`
-  width: 15%;
-  height: 90%;
-  margin-left: 15px;
-  border-radius: 4px;
-  border: 1px solid ${colors.fadedGrey};
-
-  @media (max-width: 1024px) {
-    width: 30%;
-  }
-`
