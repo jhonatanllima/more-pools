@@ -19,7 +19,7 @@ const Header: React.FC = () => {
         </TypeWriter>
       </Slogan>
 
-      <ContentSlider>{/* <Card /> */}</ContentSlider>
+      <ContentSlider />
     </Container>
   )
 }
