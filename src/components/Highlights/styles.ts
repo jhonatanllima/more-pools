@@ -30,13 +30,10 @@ export const ContentLeft = styled.div`
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
     line-height: 1.2;
     font-style: italic;
-    @media (max-width: 1024px) {
-      font-size: 45px;
-    }
   }
 
   p {
