@@ -9,26 +9,7 @@ const Promotion: React.FC = () => {
     <Container>
       <ContentWrapper>
         <ContentLeft>
-          <h1>
-            P
-            <br />
-            r
-            <br />
-            o
-            <br />
-            m
-            <br />
-            o
-            <br />
-            ç
-            <br />
-            õ
-            <br />
-            e
-            <br />
-            s
-            <br />
-          </h1>
+          <h1>Promoções</h1>
         </ContentLeft>
 
         <ContentRight>
