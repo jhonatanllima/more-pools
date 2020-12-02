@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
-import { FaBars } from 'react-icons/fa'
+import { FaBars, FaBookOpen, FaShopify, FaRegImages } from 'react-icons/fa'
+import { MdPool } from 'react-icons/md'
 import logoImg from '../../assets/images/logo.png'
 
 import {
@@ -40,14 +41,26 @@ const Nav: React.FC = () => {
                 alt="logo"
                 className="animate__animated animate__bounceInDown"
               />
+              <hr />
             </ListWrapperLogo>
 
             <ul className="list-services">
-              <li>Empresa</li>
-              <li>Cátalogo</li>
-              <li>Promoções</li>
-              <li>Galeria</li>
-              <li>Contato</li>
+              <li>
+                <MdPool />
+                Empresa
+              </li>
+              <li>
+                <FaBookOpen />
+                Cátalogo
+              </li>
+              <li>
+                <FaShopify />
+                Promoções
+              </li>
+              <li>
+                <FaRegImages />
+                Galeria
+              </li>
             </ul>
 
             <ul className="list-social">

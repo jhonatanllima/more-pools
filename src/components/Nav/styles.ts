@@ -15,6 +15,7 @@ export const ContentWrapper = styled.nav`
   height: 100%;
   display: flex;
   padding: 0 4vw;
+  box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.5);
   align-items: center;
   justify-content: space-between;
 
@@ -46,14 +47,14 @@ export const ContentWrapper = styled.nav`
       width: 50vw;
       height: 100vh;
       display: flex;
-      padding: 20px 20px 60px 20px;
+      padding: 0 0 60px 0;
       max-width: 200px;
       transform: translateX(-50vw);
       transition: 0.8s ease-in-out;
       align-items: center;
       justify-content: center;
 
-      background: #003365;
+      background: ${colors.white};
     }
   }
 `
@@ -67,7 +68,7 @@ export const Logo = styled.div`
   justify-content: center;
 
   img {
-    height: 100%;
+    height: 80%;
     max-height: 60px;
   }
 `
@@ -80,6 +81,15 @@ export const List = styled.div`
     display: flex;
 
     list-style-type: none;
+  }
+
+  .list-services li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #333;
+    font-weight: 600;
   }
 
   .list-services li,
@@ -101,10 +111,6 @@ export const List = styled.div`
       width: 100%;
       margin: 0;
       display: block;
-    }
-
-    .list-services li {
-      color: #fff;
     }
 
     .list-services li,
@@ -139,7 +145,16 @@ export const ListWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
+
+    .list-services {
+      padding: 20px;
+    }
+
+    .list-services li {
+      width: 100%;
+      text-align: left;
+    }
 
     .list-social {
       display: block;
@@ -150,18 +165,18 @@ export const ListWrapperLogo = styled.div`
   display: none;
 
   @media (max-width: 768px) {
-    border: 1px solid #000;
+    width: 100%;
+    height: 20vh;
     display: flex;
-    padding: 8px;
     align-items: center;
-    border-radius: 12px;
     justify-content: center;
 
     background: #fff;
 
     img {
-      width: 100%;
+      height: 80%;
       display: block;
+      max-height: 60px;
     }
   }
 `
