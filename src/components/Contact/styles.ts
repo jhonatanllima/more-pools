@@ -128,10 +128,14 @@ export const ContentRight = styled.div`
   }
 
   h1 {
-    font-size: 45px;
-    text-align: center;
+    width: 30px;
+
+    font-size: 40px;
     line-height: 1.2;
     font-style: italic;
+    text-align: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
   }
 
   p {

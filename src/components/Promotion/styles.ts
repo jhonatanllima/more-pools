@@ -30,15 +30,14 @@ export const ContentLeft = styled.div`
   }
 
   h1 {
-    width: 5px;
+    width: 30px;
 
     font-size: 40px;
-    word-wrap: break-word;
+    line-height: 1.2;
     font-style: italic;
     text-align: center;
     white-space: pre-wrap;
-    line-height: 1.2;
-    font-family: monospace;
+    word-wrap: break-word;
   }
 
   p {

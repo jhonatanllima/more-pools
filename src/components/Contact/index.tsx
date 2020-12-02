@@ -53,16 +53,7 @@ const Highlights: React.FC = () => {
         </ContentLeft>
 
         <ContentRight>
-          <h1>
-            S
-            <br />
-            i
-            <br />
-            g
-            <br />
-            a
-            <br />
-          </h1>
+          <h1>Siga-nos</h1>
         </ContentRight>
       </ContentWrapper>
     </Container>
