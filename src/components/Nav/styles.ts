@@ -87,9 +87,6 @@ export const List = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-
-    color: #333;
-    font-weight: 600;
   }
 
   .list-services li,
@@ -97,8 +94,12 @@ export const List = styled.div`
     margin-left: 25px;
   }
 
+  .list-services li .icon,
   .list-services li a {
+    color: #333;
     cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
   }
 
   @media (max-width: 768px) {
@@ -115,12 +116,13 @@ export const List = styled.div`
 
     .list-services li,
     .list-social li {
-      padding: 10px 0;
+      padding: 16px 0;
       margin-left: 0;
     }
 
     .list-services li {
       border-bottom: 1px solid #fff;
+      justify-content: start;
     }
 
     .list-services li:last-of-type {
@@ -137,6 +139,10 @@ export const ListWrapper = styled.div`
     display: none;
   }
 
+  .list-services li .icon {
+    display: none;
+  }
+
   .list-social {
     display: none;
   }
@@ -148,15 +154,38 @@ export const ListWrapper = styled.div`
     justify-content: start;
 
     .list-services {
-      padding: 20px;
+      padding: 25px;
     }
 
     .list-services li {
       width: 100%;
-      text-align: left;
+    }
+
+    .list-services li .icon {
+      width: 25px;
+      height: 25;
+      display: block;
+      margin-right: 10px;
+    }
+
+    .list-services li .faswimmingpool {
+      color: ${colors.primaryColor};
+    }
+
+    .list-services li .fashopfy {
+      color: ${colors.whatsApp};
+    }
+
+    .list-services li .tiwaves {
+      color: ${colors.blue};
+    }
+
+    .list-services li .faregimages {
+      color: ${colors.orange};
     }
 
     .list-social {
+      margin: 15px 0 0 0;
       display: block;
     }
   }
@@ -166,7 +195,7 @@ export const ListWrapperLogo = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
-    height: 20vh;
+    height: 22vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,5 +207,16 @@ export const ListWrapperLogo = styled.div`
       display: block;
       max-height: 60px;
     }
+  }
+`
+export const Divider = styled.hr`
+  display: none;
+
+  @media (max-width: 768px) {
+    width: 85%;
+    height: 4px;
+    display: block;
+    border-top: 1px solid #286090;
+    border-bottom: 1px solid #286090;
   }
 `

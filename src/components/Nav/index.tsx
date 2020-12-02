@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 
-import { FaBars, FaBookOpen, FaShopify, FaRegImages } from 'react-icons/fa'
-import { MdPool } from 'react-icons/md'
+import { FaBars, FaShopify, FaRegImages, FaSwimmingPool } from 'react-icons/fa'
+import { TiWaves } from 'react-icons/ti'
 import logoImg from '../../assets/images/logo.png'
 
 import {
   Container,
   ContentWrapper,
+  Divider,
   List,
   ListWrapper,
   ListWrapperLogo,
@@ -41,28 +42,27 @@ const Nav: React.FC = () => {
                 alt="logo"
                 className="animate__animated animate__bounceInDown"
               />
-              <hr />
             </ListWrapperLogo>
-
+            <Divider />
             <ul className="list-services">
               <li>
-                <MdPool />
-                Empresa
+                <FaSwimmingPool className="icon faswimmingpool" />
+                <a href="teste"> Empresa </a>
               </li>
               <li>
-                <FaBookOpen />
-                Cátalogo
+                <TiWaves className="icon tiwaves" />
+                <a href="teste"> Cátalogo </a>
               </li>
               <li>
-                <FaShopify />
-                Promoções
+                <FaShopify className="icon fashopfy" />
+                <a href="teste"> Promoções </a>
               </li>
               <li>
-                <FaRegImages />
-                Galeria
+                <FaRegImages className="icon faregimages" />
+                <a href="teste"> Galeria </a>
               </li>
             </ul>
-
+            <Divider />
             <ul className="list-social">
               <li>Social Icon</li>
             </ul>
