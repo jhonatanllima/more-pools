@@ -37,11 +37,7 @@ const Nav: React.FC = () => {
         >
           <ListWrapper>
             <ListWrapperLogo>
-              <img
-                src={logoImg}
-                alt="logo"
-                className="animate__animated animate__bounceInDown"
-              />
+              <img src={logoImg} alt="logo" />
             </ListWrapperLogo>
             <Divider />
             <ul className="list-services">

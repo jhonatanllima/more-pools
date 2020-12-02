@@ -49,7 +49,7 @@ export const ContentWrapper = styled.nav`
       display: flex;
       padding: 0 0 60px 0;
       max-width: 200px;
-      transform: translateX(-50vw);
+      transform: translateX(-55vw);
       transition: 0.8s ease-in-out;
       box-shadow: 9px -1px 15px -2px rgba(0, 0, 0, 0.65);
       align-items: center;
