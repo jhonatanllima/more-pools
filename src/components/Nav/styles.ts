@@ -51,6 +51,7 @@ export const ContentWrapper = styled.nav`
       max-width: 200px;
       transform: translateX(-50vw);
       transition: 0.8s ease-in-out;
+      box-shadow: 9px -1px 15px -2px rgba(0, 0, 0, 0.65);
       align-items: center;
       justify-content: center;
 
