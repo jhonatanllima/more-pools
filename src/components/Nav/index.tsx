@@ -3,7 +3,14 @@ import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import logoImg from '../../assets/images/logo.png'
 
-import { Container, ContentWrapper, List, ListWrapper, Logo } from './styles'
+import {
+  Container,
+  ContentWrapper,
+  List,
+  ListWrapper,
+  ListWrapperLogo,
+  Logo
+} from './styles'
 import 'animate.css'
 
 const Nav: React.FC = () => {
@@ -27,6 +34,14 @@ const Nav: React.FC = () => {
           }}
         >
           <ListWrapper>
+            <ListWrapperLogo>
+              <img
+                src={logoImg}
+                alt="logo"
+                className="animate__animated animate__bounceInDown"
+              />
+            </ListWrapperLogo>
+
             <ul className="list-services">
               <li>Empresa</li>
               <li>Cátalogo</li>
