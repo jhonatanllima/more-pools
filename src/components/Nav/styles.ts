@@ -218,6 +218,8 @@ export const Divider = styled.hr`
     height: 4px;
     display: block;
     border-top: 1px solid #286090;
+    border-left: 0;
+    border-right: 0;
     border-bottom: 1px solid #286090;
   }
 `
