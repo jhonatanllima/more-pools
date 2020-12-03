@@ -186,8 +186,39 @@ export const ListWrapper = styled.div`
     }
 
     .list-social {
-      margin: 15px 0 0 0;
-      display: block;
+      display: flex;
+      padding: 0 15px 0 15px;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .list-social li {
+      width: auto;
+      height: auto;
+    }
+
+    .list-social li .socialButton {
+      width: 40px !important;
+      height: 40px !important;
+      border: 0;
+      display: flex;
+      box-shadow: 5px 5px 8px -2px rgba(0, 0, 0, 0.6);
+      align-items: center;
+      border-radius: 30%;
+      justify-content: center;
+    }
+
+    .list-social li .facebook {
+      background: ${colors.facebook};
+    }
+
+    .list-social li .instagram {
+      background: ${colors.instagram};
+    }
+
+    .list-social li .socialButton .socialIcon {
+      color: #fff;
+      font-size: 24px;
     }
   }
 `
@@ -221,5 +252,18 @@ export const Divider = styled.hr`
     border-left: 0;
     border-right: 0;
     border-bottom: 1px solid #286090;
+  }
+`
+export const SocialText = styled.p`
+  padding: 12px 12px 0 12px;
+
+  color: #333;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+
+  span {
+    font-style: italic;
+    font-weight: 800;
   }
 `

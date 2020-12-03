@@ -1,6 +1,13 @@
 import React, { useState } from 'react'
 
-import { FaBars, FaShopify, FaRegImages, FaSwimmingPool } from 'react-icons/fa'
+import {
+  FaBars,
+  FaShopify,
+  FaRegImages,
+  FaSwimmingPool,
+  FaFacebookF,
+  FaInstagram
+} from 'react-icons/fa'
 import { TiWaves } from 'react-icons/ti'
 import logoImg from '../../assets/images/logo.png'
 
@@ -11,7 +18,8 @@ import {
   List,
   ListWrapper,
   ListWrapperLogo,
-  Logo
+  Logo,
+  SocialText
 } from './styles'
 import 'animate.css'
 
@@ -59,9 +67,25 @@ const Nav: React.FC = () => {
               </li>
             </ul>
             <Divider />
+            <SocialText>
+              Veja
+              <span> MAIS </span>
+              em:
+            </SocialText>
             <ul className="list-social">
-              <li>Social Icon</li>
+              <li>
+                <a href="teste" className="socialButton facebook">
+                  <FaFacebookF className="socialIcon" />
+                </a>
+              </li>
+
+              <li>
+                <a href="teste" className="socialButton instagram">
+                  <FaInstagram className="socialIcon" />
+                </a>
+              </li>
             </ul>
+            <Divider />
           </ListWrapper>
         </List>
         <FaBars onClick={() => setOpenMenu(!openMenu)} className="burguer" />
