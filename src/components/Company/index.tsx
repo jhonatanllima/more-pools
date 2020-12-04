@@ -17,7 +17,7 @@ const Company: React.FC = () => {
 
           <p>
             Fundado em março de 2014, na cidade de Itapetininga-SP, dois bons
-            amigos, Thiago e Franciso, resolvem trabalhar em conjunto na
+            amigos, Thiago e Francisco resolvem trabalhar em conjunto na
             construção e elaboração de Piscinas. Desde então, ambos trabalham
             juntos e com o mesmo objetivo, levar aos seus clientes o conforto e
             a qualidade de seus produtos. Sua equipe trabalha com respeito e

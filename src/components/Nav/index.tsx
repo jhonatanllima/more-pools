@@ -67,7 +67,7 @@ const Nav: React.FC = () => {
               </li>
             </ul>
             <Divider />
-            <ul className="list-services">
+            <ul className="list-services d-none">
               <li>
                 <FaFacebookF className="icon facebook" />
                 <a href="teste"> Facebook </a>

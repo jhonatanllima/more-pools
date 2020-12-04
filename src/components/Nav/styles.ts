@@ -144,6 +144,10 @@ export const ListWrapper = styled.div`
     display: none;
   }
 
+  .d-none {
+    display: none;
+  }
+
   .list-social {
     display: none;
   }
@@ -153,6 +157,10 @@ export const ListWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: start;
+
+    .d-none {
+      display: block;
+    }
 
     .list-services {
       padding: 25px;
