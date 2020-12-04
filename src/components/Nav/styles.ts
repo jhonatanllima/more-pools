@@ -262,11 +262,3 @@ export const Divider = styled.hr`
     border-bottom: 1px solid #286090;
   }
 `
-export const SocialText = styled.p`
-  margin: 25px 12px 10px 12px;
-
-  color: #333;
-  text-align: center;
-  font-style: italic;
-  font-weight: 600;
-`
