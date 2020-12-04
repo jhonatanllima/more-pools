@@ -68,9 +68,7 @@ const Nav: React.FC = () => {
               </li>
             </ul>
             <Divider />
-            <SocialText>
-              <span> Contato </span>
-            </SocialText>
+            <SocialText>Contato</SocialText>
             <ul className="list-social">
               <li>
                 <a href="teste" className="socialButton facebook">

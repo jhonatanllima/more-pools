@@ -48,7 +48,7 @@ export const ContentWrapper = styled.nav`
       height: 100vh;
       display: flex;
       padding: 0 0 60px 0;
-      max-width: 200px;
+      max-width: 220px;
       transform: translateX(-55vw);
       transition: 0.8s ease-in-out;
       box-shadow: 9px -1px 15px -2px rgba(0, 0, 0, 0.65);
@@ -189,18 +189,20 @@ export const ListWrapper = styled.div`
       display: flex;
       padding: 0 14px;
       align-items: center;
+      /* flex-direction: column; */
+      margin-bottom: 25px;
       justify-content: space-around;
     }
 
     .list-social li {
       width: auto;
       height: auto;
-      padding: 12px 6px;
+      padding: 6px;
     }
 
     .list-social li .socialButton {
-      width: 30px !important;
-      height: 30px !important;
+      width: 40px !important;
+      height: 40px !important;
       border: 0;
       display: flex;
       box-shadow: 5px 5px 8px -2px rgba(0, 0, 0, 0.6);
@@ -261,14 +263,10 @@ export const Divider = styled.hr`
   }
 `
 export const SocialText = styled.p`
-  padding: 12px 12px 12px 12px;
+  margin: 25px 12px 10px 12px;
 
   color: #333;
-  font-size: 1rem;
   text-align: center;
-
-  span {
-    font-style: italic;
-    font-weight: 600;
-  }
+  font-style: italic;
+  font-weight: 600;
 `
