@@ -66,7 +66,7 @@ const Nav: React.FC = () => {
                 <a href="teste"> Galeria </a>
               </li>
             </ul>
-
+            <Divider />
             <ul className="list-social">
               <li>
                 <a href="teste" className="socialButton facebook">
@@ -86,7 +86,6 @@ const Nav: React.FC = () => {
                 </a>
               </li>
             </ul>
-            <Divider />
           </ListWrapper>
         </List>
         <FaBars onClick={() => setOpenMenu(!openMenu)} className="burguer" />
