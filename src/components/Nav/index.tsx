@@ -19,8 +19,7 @@ import {
   List,
   ListWrapper,
   ListWrapperLogo,
-  Logo,
-  SocialText
+  Logo
 } from './styles'
 import 'animate.css'
 
@@ -67,8 +66,7 @@ const Nav: React.FC = () => {
                 <a href="teste"> Galeria </a>
               </li>
             </ul>
-            <Divider />
-            <SocialText>Contato</SocialText>
+
             <ul className="list-social">
               <li>
                 <a href="teste" className="socialButton facebook">
@@ -88,6 +86,7 @@ const Nav: React.FC = () => {
                 </a>
               </li>
             </ul>
+            <Divider />
           </ListWrapper>
         </List>
         <FaBars onClick={() => setOpenMenu(!openMenu)} className="burguer" />
