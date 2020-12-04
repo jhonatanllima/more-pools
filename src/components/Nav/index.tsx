@@ -67,7 +67,18 @@ const Nav: React.FC = () => {
               </li>
             </ul>
             <Divider />
-            <ul className="list-social">
+            <ul className="list-services">
+              <li>
+                <FaFacebookF className="icon facebook" />
+                <a href="teste"> Facebook </a>
+              </li>
+              <li>
+                <FaInstagram className="icon instagram" />
+                <a href="teste"> Instagram </a>
+              </li>
+            </ul>
+            <Divider />
+            {/* <ul className="list-social">
               <li>
                 <a href="teste" className="socialButton facebook">
                   <FaFacebookF className="socialIcon" />
@@ -85,7 +96,7 @@ const Nav: React.FC = () => {
                   <FaWhatsapp className="socialIcon" />
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </ListWrapper>
         </List>
         <FaBars onClick={() => setOpenMenu(!openMenu)} className="burguer" />

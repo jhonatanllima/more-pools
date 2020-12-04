@@ -185,6 +185,14 @@ export const ListWrapper = styled.div`
       color: ${colors.orange};
     }
 
+    .list-services li .facebook {
+      color: ${colors.facebook};
+    }
+
+    .list-services li .instagram {
+      color: ${colors.instagram};
+    }
+
     .list-social {
       margin: 28px 0;
       display: flex;
@@ -209,14 +217,6 @@ export const ListWrapper = styled.div`
       align-items: center;
       border-radius: 30%;
       justify-content: center;
-    }
-
-    .list-social li .facebook {
-      background: ${colors.facebook};
-    }
-
-    .list-social li .instagram {
-      background: ${colors.instagram};
     }
 
     .list-social li .whatsapp {
