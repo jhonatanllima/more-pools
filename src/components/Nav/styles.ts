@@ -186,11 +186,11 @@ export const ListWrapper = styled.div`
     }
 
     .list-social {
+      margin: 28px 0;
       display: flex;
       padding: 0 14px;
       align-items: center;
       /* flex-direction: column; */
-      margin-bottom: 25px;
       justify-content: space-around;
     }
 
@@ -205,7 +205,7 @@ export const ListWrapper = styled.div`
       height: 40px !important;
       border: 0;
       display: flex;
-      box-shadow: 5px 5px 8px -2px rgba(0, 0, 0, 0.6);
+      box-shadow: 4px 4px 5px -2px rgba(0, 0, 0, 0.6);
       align-items: center;
       border-radius: 30%;
       justify-content: center;
