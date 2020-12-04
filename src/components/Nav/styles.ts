@@ -117,7 +117,7 @@ export const List = styled.div`
 
     .list-services li,
     .list-social li {
-      padding: 16px 0;
+      padding: 14px 0;
       margin-left: 0;
     }
 
@@ -187,7 +187,7 @@ export const ListWrapper = styled.div`
 
     .list-social {
       display: flex;
-      padding: 0 15px 0 15px;
+      padding: 0 14px;
       align-items: center;
       justify-content: space-around;
     }
@@ -195,11 +195,12 @@ export const ListWrapper = styled.div`
     .list-social li {
       width: auto;
       height: auto;
+      padding: 12px 6px;
     }
 
     .list-social li .socialButton {
-      width: 40px !important;
-      height: 40px !important;
+      width: 30px !important;
+      height: 30px !important;
       border: 0;
       display: flex;
       box-shadow: 5px 5px 8px -2px rgba(0, 0, 0, 0.6);
@@ -216,18 +217,23 @@ export const ListWrapper = styled.div`
       background: ${colors.instagram};
     }
 
+    .list-social li .whatsapp {
+      background: ${colors.whatsApp};
+    }
+
     .list-social li .socialButton .socialIcon {
       color: #fff;
-      font-size: 24px;
+      font-size: 20px;
     }
   }
 `
+
 export const ListWrapperLogo = styled.div`
   display: none;
 
   @media (max-width: 768px) {
     width: 100%;
-    height: 22vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -255,15 +261,14 @@ export const Divider = styled.hr`
   }
 `
 export const SocialText = styled.p`
-  padding: 12px 12px 0 12px;
+  padding: 12px 12px 12px 12px;
 
   color: #333;
   font-size: 1rem;
   text-align: center;
-  font-weight: 600;
 
   span {
     font-style: italic;
-    font-weight: 800;
+    font-weight: 600;
   }
 `

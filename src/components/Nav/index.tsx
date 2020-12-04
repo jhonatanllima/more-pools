@@ -6,7 +6,8 @@ import {
   FaRegImages,
   FaSwimmingPool,
   FaFacebookF,
-  FaInstagram
+  FaInstagram,
+  FaWhatsapp
 } from 'react-icons/fa'
 import { TiWaves } from 'react-icons/ti'
 import logoImg from '../../assets/images/logo.png'
@@ -68,9 +69,7 @@ const Nav: React.FC = () => {
             </ul>
             <Divider />
             <SocialText>
-              Veja
-              <span> MAIS </span>
-              em:
+              <span> Contato </span>
             </SocialText>
             <ul className="list-social">
               <li>
@@ -84,8 +83,13 @@ const Nav: React.FC = () => {
                   <FaInstagram className="socialIcon" />
                 </a>
               </li>
+
+              <li>
+                <a href="teste" className="socialButton whatsapp">
+                  <FaWhatsapp className="socialIcon" />
+                </a>
+              </li>
             </ul>
-            <Divider />
           </ListWrapper>
         </List>
         <FaBars onClick={() => setOpenMenu(!openMenu)} className="burguer" />
