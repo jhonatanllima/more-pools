@@ -26,6 +26,7 @@ export default {
   textGrey: '#707070',
 
   red: '#ff4d4f',
+  green: '#2ecc71',
   orange: '#ff6600',
 
   white: '#ffffff',
