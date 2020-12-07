@@ -114,9 +114,9 @@ export const Divider = styled.hr`
     height: 4px;
     margin: 12px 0;
     display: block;
-    border-top: 1px solid #286090;
+    border-top: 1px solid rgba(40, 96, 144, 0.5);
     border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid #286090;
+    border-bottom: 1px solid rgba(40, 96, 144, 0.5);
   }
 `
