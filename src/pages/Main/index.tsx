@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NavN from '../../components/_Nav/index'
+import Nav from '../../components/Nav/index'
 import Header from '../../components/Header/index'
 import Company from '../../components/Company/index'
 import Contact from '../../components/Contact/index'
@@ -11,12 +11,11 @@ import { Container } from './styles'
 const Main: React.FC = () => {
   return (
     <Container>
-      {/* <Nav /> */}
-      <NavN />
-      {/* <Header />
+      <Nav />
+      <Header />
       <Company />
       <Promotion />
-      <Contact /> */}
+      <Contact />
     </Container>
   )
 }
