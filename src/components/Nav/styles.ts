@@ -8,12 +8,13 @@ export const Container = styled.div`
 
   width: 100vw;
   height: 8vh;
+  min-height: 40px;
 `
 export const ContentWrapper = styled.nav`
   width: 100%;
   height: 100%;
   display: flex;
-  padding: 0 5vw;
+  padding: 0 5%;
   align-items: center;
   justify-content: space-between;
 
@@ -29,6 +30,7 @@ export const Logo = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
+  padding: 5px;
   align-items: center;
   justify-content: start;
 
@@ -77,6 +79,8 @@ export const MenuHamburguer = styled.div`
     width: 8vh;
     height: 8vh;
     display: flex;
+    min-width: 40px;
+    min-height: 40px;
     align-items: center;
     justify-content: center;
   }

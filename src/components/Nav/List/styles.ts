@@ -22,6 +22,7 @@ export const ListOption = styled.ul`
   @media (max-width: 768px) {
     display: flex;
     padding: 20px;
+    overflow: auto;
     align-items: center;
     flex-direction: column;
     justify-content: start;
